@@ -1,13 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@800&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: #fd0800;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Home */
+
+.home {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 14rem;
+  margin-top: 10rem;
+}
+.containerNav {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerFoto {
+  margin-top: -7rem;
+  margin-left: 40rem;
+  position: fixed;
+}
+/* .footerHome {
+  width: 95%;
+  margin-left: 1.5rem;
+  margin-top: 12rem;
+  display: flex;
+  justify-content: center;
+} */
+
+/* Navbar */
+
+.contenido .tabla-contenido table {
+  position: static;
+  margin-top: 30px;
+  color: black;
+  font-size: 15px;
+  border-radius: 8px;
+}
+.contenido .tabla-contenido table p:before {
+  content: "Hola.";
+  color: #ffffff;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Jost", sans-serif;
+  font-size: 5rem;
+}
+.contenido .tabla-contenido table p:hover:before {
+  content: "Sobre mi";
+  color: #ffffff;
+  transition: 0.7s;
+}
+.contenido .tabla-contenido table div:before {
+  content: "Soy";
+  color: #fd0800;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Jost", sans-serif;
+  font-size: 5rem;
+}
+.contenido .tabla-contenido table div:hover:before {
+  content: "Portfolio";
+  color: #ffffff;
+  transition: 0.7s;
+}
+.contenido .tabla-contenido table span:before {
+  content: "Esteban";
+  color: #fd0800;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Jost", sans-serif;
+  font-size: 5rem;
+}
+.contenido .tabla-contenido table span:hover:before {
+  content: "Contacto";
+  color: #ffffff;
+  transition: 0.7s;
+}
+
+/*Footer */
+
+footer {
+  color: #ffffff;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Jost", sans-serif;
+  text-align: end;
+}
+.esteban {
+  color: white;
+}
+.esteban:hover{
+  color: #fd0800;
+}
+/* About */
+.resaltados {
+  color: #fd0800;
+}
+
+.containerAbout {
+  color: #ffffff;
+  padding: 2rem;
+}
+.fotoAbout {
+  display: flex;
+  justify-content: center;
+  float: right;
+}
+.btnBack {
+  text-align: end;
+  margin-right: 4rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btnBack:hover {
+  color: #fd0800;
+}
+.titleAbout {
+  font-size: 8rem;
+  text-align: center;
+  color: white;
+}
+.subtitleAbout {
+  font-size: 4rem;
+  color: #fd0800;
+  margin-left: 4rem;
+}
+.bajada {
+  font-size: 2rem;
+  color: white;
+  margin-left: 4rem;
+}
+.containerTextAbout {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.containerTextAbout2Padre {
+  display: flex;
+  justify-content: flex-start;
+}
+.containerTextAbout2 {
+  font-size: 1.5rem;
+  width: 80%;
+  text-align: left;
+  margin-left: 4rem;
+  display: flex;
+}
+
+.containerTextAbout3Padre {
+  display: flex;
+  justify-content: flex-start;
+}
+.containerTextAbout3 {
+  font-size: 1.5rem;
+  width: 80%;
+  text-align: left;
+  margin-left: 4rem;
+}
+.containerTextAbout4 {
+  font-size: 1.5rem;
+  width: 70%;
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+  text-align: left;
+}
+
+/* Footer */
+
+.logoGit {
+  filter: invert(100%);
+  margin-bottom: 1rem;
+}
+.logoFb {
+  filter: invert(100%);
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.logoIg {
+  margin-bottom: .8rem;
+  margin-left: 1rem;
+  filter: invert(100%);
+}
+.logoLinkedin {
+  filter: invert(100%);
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.epigrafe {
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+.containerFooter {
+  display: flex;
+  flex-direction: row;
+  margin-left: .5rem;
+  margin-bottom: 1rem;
+}
+hr {
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+/* Portfolio */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-self: center;
+}
+.yearCardNosotros {
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  margin-top: -3rem;
+}
+.containerYearCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  display: inline-block;
+  margin-top: 2rem;
+}
+.container .cardNosotros {
+  position: relative;
+  padding: 1rem;
+  margin-left: 3rem;
+}
+
+.container .cardNosotros .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .cardNosotros .face.face1 {
+  position: relative;
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .cardNosotros:hover .face.face1 {
+  background: #ffffff;
+  transform: translateY(0);
+}
+
+.container .cardNosotros .face.face1 .content {
+  opacity: 0;
+  transition: 0.5s;
+}
+.container .cardNosotros .face.face1 .yearCardNosotros {
+  font-size: 4rem;
+  font-family: Brandon Grotesque Black,helvetica,arial,sans-serif;
+}
+.container .cardNosotros .face.face1:hover .yearCardNosotros {
+  display: none;
+}
+
+.container .cardNosotros:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .cardNosotros .face.face1 .content img {
+  max-width: 100px;
+}
+
+.container .cardNosotros .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Brandon Grotesque Black,helvetica,arial,sans-serif;
+}
+
+.container .cardNosotros .face.face2 {
+  position: relative;  
+  background-color: #dc2626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container .cardNosotros:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.container .cardNosotros .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+  font-family: Brandon Grotesque Black,helvetica,arial,sans-serif;
+  color: #ffffff;
+  font-size: smaller;
+}
+.cardNosotros:hover .yearCardNosotros {
+  display: none;
+}
+
+.container .cardNosotros .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.container .cardNosotros .face.face2 .content a:hover {
+  background: rgb(0, 190, 57);
+  color: #fff;
+}
+.footerPortfolio {
+  width: 95%;
+  margin-left: 1.5rem;
+}
+.bajadaPortfolio {
+  width: 90%;
+  margin-left: 3rem;
+
+}
+
+/* Contact */
+
+.textContact {
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: left;
+    color: white;  
+    margin-left: 8rem;
+}
+.textContact2 {
+  font-size: 1.5rem;
+  width: 60%;
+  text-align: left;
+  color: white;  
+  margin-left: 8rem;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+.titleContact {
+  font-size: 8rem;
+  text-align: center;
+  margin-left: 7rem;
+  color: white;
+  width: 80%;
+}
+.subtitleContact {
+  font-size: 4rem;
+  color: #fd0800;
+  margin-left: 8rem;
+}
+.notebook {
+  float: right;
+  margin-left: 1rem;
 }
