@@ -26,7 +26,7 @@ function Portfolio() {
              
               <div class="content">
                 <img src={LogoLuxury} alt="Logo Luxury Drinks" />
-                <h3>Luxury Drinks</h3>
+                <a href="https://luxurydrinks.herokuapp.com/" target="_blank"><h3>Luxury Drinks</h3></a>
               </div>
             </div>
             <div class="face face2">
@@ -45,7 +45,7 @@ function Portfolio() {
             </div>
               <div class="content">
                 <img src={LogoZipriano} alt="Logo Don Zipriano"/>
-                <h3>Don Zipriano</h3>
+                <a href="https://don-zipriano.herokuapp.com/" target="_blank"><h3>Don Zipriano</h3></a>
               </div>
             </div>
             <div class="face face2">
@@ -84,7 +84,7 @@ function Portfolio() {
              
               <div class="content">
                 <img src={LogoPetShop} alt="Logo Petshop"/>
-                <h3>Pet Shop Franco</h3>
+                <a href="https://lautarostein.github.io/Proyecto-Pet-Shop-Franco/" target="_blank"><h3>Pet Shop Franco</h3></a>
               </div>
             </div>
             <div class="face face2">
@@ -104,7 +104,7 @@ function Portfolio() {
              
               <div class="content">
                 <img src={LogoSenate} alt="Logo senate"/>
-                <h3>Web del Senado</h3>
+                <a href="https://steve-ux.github.io/web-senate/" target="_blank"><h3>Web del Senado</h3></a>
               </div>
             </div>
             <div class="face face2">
@@ -124,7 +124,7 @@ function Portfolio() {
              
               <div class="content">
                 <img src={LogoHockey} alt="Logo Hockey"/>
-                <h3>Mighty Ducks</h3>
+                <a href="https://steve-ux.github.io/mighty-ducks-hockey/" target="_blank"><h3>Mighty Ducks</h3></a>
               </div>
             </div>
             <div class="face face2">
