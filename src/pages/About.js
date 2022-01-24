@@ -33,8 +33,10 @@ function About() {
               <p>Hoy puedo decir que soy <span className="resaltados">Full Stack MERN</span> (Mongo DB, Express, React, Node js) gracias al esfuerzo propio y el de amigos, que fui haciendo en el curso, y que sin su ayuda hubiera abandonado a la primera dificultad. Comienza una nueva etapa y estoy más que preparado para afrontarla.</p>
           </section>
           </div>
+          <div className="footerPortfolio">
           <hr></hr>
           <Footer />
+          </div>
           
       </div>
     
