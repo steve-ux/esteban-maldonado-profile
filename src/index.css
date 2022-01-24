@@ -47,7 +47,7 @@ code {
   .home {
     display: flex;
     flex-direction: column;
-    margin-left: 8rem;
+    margin-left: 6rem;
   }
   
 }
@@ -171,6 +171,24 @@ footer {
   margin-left: 4rem;
   margin-bottom: 4rem;
   text-align: left;
+}
+@media screen and (max-width: 1300px) {
+  .containerTextAbout {
+    width: 100%;
+  }
+  .containerTextAbout2 {
+    width: 100%;
+  }
+  .containerTextAbout3 {
+    width: 100%;
+  }
+  .containerTextAbout4 {
+    width: 100%;
+  }
+  .titleAbout {
+    font-size: 3rem;
+  }
+  
 }
 
 /* Footer */
@@ -373,4 +391,16 @@ hr {
 .notebook {
   float: right;
   margin-left: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .titleContact {
+    font-size: 3rem;
+  }
+  .textContact {
+    width: 98%;
+  }
+  .textContact2 {
+    width: 98%;
+  }
 }
