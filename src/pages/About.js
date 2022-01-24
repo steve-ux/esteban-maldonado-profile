@@ -10,9 +10,8 @@ function About() {
           
           <section className="containerTextAbout">
           <h2 className="subtitleAbout">Sobre Mi</h2>
-          <h4 className="bajada">Hola, soy Esteban Maldonado, argentino amante de la tecnología, las criptomonedas y de las personas autodidactas y emprendedoras. Recientemente obtuve oficialmente el título de programador y eso me pone muy contento. En este espacio te contaré una breve síntesis de mi historia.</h4>
+          <h4 className="bajada">Hola, soy Esteban Maldonado, argentino amante de la tecnología, las criptomonedas y de las personas autodidactas y emprendedoras. Recientemente obtuve el título oficial de programador y eso me pone muy contento. En este espacio te contaré una breve síntesis de mi historia.</h4>
           </section>
-              <img width="600" src={FotoAbout} className="fotoAbout" alt="Esteban Maldonado ciudad de Mendoza"/>
           <div className="containerTextAbout2Padre">
           <section className="containerTextAbout2">
               <p>Tengo 28 años de edad y soy de Mendoza, una provincia vitivinícola al oeste de Argentina. Ser programador no fue una elección del principio, soy un ex estudiante de la carrera de Comunicación Social que a mitad de carrera se dio cuenta que no era su pasión. Era el diseño. <span className="resaltados">Mentalizar, diseñar y crear</span> es algo que no dejaría de hacer.</p>
@@ -20,6 +19,7 @@ function About() {
           </div>
           <div className="containerTextAbout3Padre">
           <section className="containerTextAbout3">
+              <img width="600" src={FotoAbout} className="fotoAbout" alt="Esteban Maldonado ciudad de Mendoza"/>
               <p>A los 25 empecé una agencia de publicidad junto a un amigo de la universidad, sabíamos de diseño y marketing pero faltaba algo más, programación. En sus comienzos usábamos Wordpress, una excelente herramienta pero limitada para las mentes creativas y debía dar un salto.</p>
               
           </section>
